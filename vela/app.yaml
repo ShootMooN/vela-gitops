@@ -8,4 +8,4 @@ spec:
     - name: server
       type: webservice
       properties:
-        image: alibaba-office-safe-registry.cn-zhangjiakou.cr.aliyuncs.com/alibaba-office-safe/test-edge:chengdun-auto-2023-05-09-17-51-35
+        image: nginx
