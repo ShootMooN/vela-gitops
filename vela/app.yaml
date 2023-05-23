@@ -1,0 +1,11 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: vela-app
+  namespace: local-gitops
+spec:
+  components:
+    - name: server
+      type: webservice
+      properties:
+        image: alibaba-office-safe-registry.cn-zhangjiakou.cr.aliyuncs.com/alibaba-office-safe/test-edge:chengdun-auto-2023-05-09-17-51-35
